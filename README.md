@@ -3,8 +3,6 @@
 A modern, product-focused developer portfolio built to showcase full stack projects, UI systems, and real-world engineering work.
 
 ## 🌐 Live Preview
-
-> Add your deployed link here
 > 👉 https://mishra-ujjwal-portfolio.onrender.com/
 
 ---
