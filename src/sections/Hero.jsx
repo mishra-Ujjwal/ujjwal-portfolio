@@ -146,7 +146,7 @@ const words = ["From", "concept", "to", "production,", "I", "build", "everything
             {/* <MagneticButton href="#contact" className="hero-action">
               Contact Me
             </MagneticButton> */}
-            <MagneticButton href="/ujjwal's-resume.pdf" variant="ghost" className="hero-action !border-white/25 !bg-carbon/80 !text-mercury !opacity-100" download>
+            <MagneticButton href="/ujjwal-resume.pdf" variant="ghost" className="hero-action !border-white/25 !bg-carbon/80 !text-mercury !opacity-100" download>
               Resume
             </MagneticButton>
           </div>
