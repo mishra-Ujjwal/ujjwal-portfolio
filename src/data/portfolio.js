@@ -76,6 +76,30 @@ export const skills = [
 
 export const projects = [
   {
+    title: "HRMS, Vendor & Expense Platform (Apotsa.com)",
+    eyebrow: "Multi-tenant platform",
+    summary: "Multi-tenant HRMS covering onboarding, attendance, leave, payroll, payslips, and expense claims, with vendor management (onboarding, purchase orders, invoices, payments) integrated into the same approval workflows.",
+    problem: "HR, finance, and vendor processes ran in separate tools with disconnected approvals.",
+    impact: "RBAC across five roles, real-time notifications via Socket.IO, and Redis caching with PostgreSQL indexing to keep dashboards fast under concurrent load.",
+    tech: ["React", "Node.js", "PostgreSQL", "Redis", "Socket.IO"],
+    accent: "teal",
+    links: [
+      { label: "Live Demo", href: "https://apotsa.com", icon: ExternalLink }
+    ],
+    image: "/apotsa.png"
+  },
+  {
+    title: "AI-Powered CA Firm Platform",
+    eyebrow: "Accounting automation",
+    summary: "Centralized dashboard for CA firms to manage clients, documents, compliance, and tasks.",
+    problem: "CA firms handled client data, invoices, and GST checks manually across disconnected tools.",
+    impact: "Tally sync via a secure desktop sync mechanism for multiple companies, plus AI-based OCR invoice processing and GST reconciliation (GSTR-2A/2B mismatch detection).",
+    tech: ["React.js", "Node.js", "Tally", "OCR"],
+    accent: "volt",
+    links: [],
+    image: "/ca-firm.svg"
+  },
+  {
     title: "Wedding Bureau Management System",
     eyebrow: "Lead full-stack build",
     summary: "A premium CRM-style platform for matchmaking workflows, lead tracking, user profiles, and admin operations.",
@@ -107,34 +131,6 @@ export const projects = [
     image:"/wedding-project.png",
   },
   {
-    title: "Smart Restaurant Management System",
-    eyebrow: "Operational dashboard",
-    summary: "Restaurant admin experience for orders, menus, billing flow, table status, and staff-friendly control panels.",
-    problem: "Restaurant teams needed faster order visibility and fewer manual coordination gaps.",
-    impact: "Reduced operational friction with a clean command center for key restaurant workflows.",
-    tech: ["MERN", "Dashboard UI", "API", "MongoDB", "Auth"],
-    accent: "ember",
-    image:"/restaurant.png",
-    links: [
-      { label: "Live Demo", href: "https://eatrio.onrender.com/", icon: ExternalLink },
-      { label: "GitHub", href: "https://github.com/", icon: Github }
-    ]
-  },
-  {
-    title: "Taja Thela",
-    eyebrow: "Commerce concept",
-    summary: "Fresh-market web product concept focused on quick browsing, category clarity, and lightweight commerce flows.",
-    problem: "Local fresh goods need a faster digital browsing path without heavy marketplace complexity.",
-    impact: "Created a direct, mobile-friendly interface that keeps discovery and ordering simple.",
-    tech: ["React", "Tailwind", "Node", "UI Systems", "Mobile UX"],
-    accent: "volt",
-    links: [
-      { label: "Live Demo", href: "https://tajathela-wy9b.onrender.com/", icon: ExternalLink },
-      { label: "GitHub", href: "https://github.com/", icon: Github }
-    ],
-    image:"/tajathela.png",
-  },
-  {
   title: "CRM / HRMS / Frappe Modules",
   eyebrow: "ERP engineering",
   summary: "Building custom Frappe and ERPNext modules for approvals, employee management, reporting, and workflow automation.In Progress (Launching Soon)",
@@ -163,34 +159,15 @@ export const projects = [
 export const timeline = [
   {
     year: "Dec 2025 – Present",
-    title: "Full Stack Developer Intern – Extension Technologies",
-    type: "Experience",
-    detail: "Building CRM/HRMS systems using Frappe with custom modules, workflows, and admin dashboards. Developed 5+ core modules, automated approval flows reducing manual effort by ~30%, and implemented role-based access for multi-level teams."
+    title: "Software Developer – Extension Technologies Pvt. Ltd., Faridabad",
+    type: "Full-Time",
+    detail: "Deliver client projects end-to-end in a cross-functional team, covering CRM (Zoho), in-house ERP, and HRMS solutions. Design dashboards, approval workflows, and custom reports for sales, HR, finance, and operations teams."
   },
   {
-    year: "Sept 2025 – Oct 2025",
-    title: "Frontend Developer Intern – ShadowFox",
+    year: "Jun 2025 – Nov 2025",
+    title: "Software Developer Intern – Extension Technologies Pvt. Ltd., Faridabad",
     type: "Internship",
-    detail: "Delivered 10+ responsive UI components and improved page load and usability. Collaborated on real client requirements, reducing UI inconsistencies and improving user interaction flow."
-  },
-  {
-    year: "Feb 2025 – July 2025",
-    title: "Full Stack Development Certification – Sheriyans Coding School",
-    type: "Certification",
-    detail: "Built 6+ full-stack projects using MERN, including authentication systems, dashboards, and APIs. Gained hands-on experience with database design, REST APIs, and deployment workflows."
-  },
-  {
-    year: "2024",
-    title: "Advanced Full Stack & System Design",
-    type: "Growth",
-    detail: "Designed and developed 3+ production-style systems including admin panels and workflow-driven dashboards, focusing on scalability, UI polish, and clean architecture."
-  },
-  
-  {
-    year: "2023",
-    title: "Frontend Systems Foundation",
-    type: "Journey",
-    detail: "Created 10+ responsive web pages and transitioned into component-based architecture with modern UI practices and basic animations."
+    detail: "Worked on CRM implementation and customization, including Zoho CRM, alongside in-house ERP and HRMS solutions. Built a personal CRM using React.js, Express.js, and PostgreSQL. Contributed to client projects by developing features, fixing bugs, and supporting deployments."
   }
 ];
 

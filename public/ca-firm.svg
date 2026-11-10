@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Inter, -apple-system, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- sidebar -->
+  <rect x="40" y="40" width="270" height="820" rx="20" fill="#0f172a" stroke="#1e293b"/>
+  <rect x="68" y="70" width="36" height="36" rx="10" fill="url(#acc)"/>
+  <text x="118" y="95" fill="#f1f5f9" font-size="22" font-weight="800">CA Desk AI</text>
+  <g font-size="17" fill="#94a3b8">
+    <rect x="60" y="140" width="230" height="44" rx="10" fill="#1e293b"/>
+    <text x="84" y="168" fill="#f1f5f9" font-weight="700">Dashboard</text>
+    <text x="84" y="226">Clients</text>
+    <text x="84" y="274">Documents</text>
+    <text x="84" y="322">Compliance</text>
+    <text x="84" y="370">GST Reconciliation</text>
+    <text x="84" y="418">Tasks</text>
+    <text x="84" y="466">Tally Sync</text>
+  </g>
+  <rect x="60" y="760" width="230" height="74" rx="14" fill="#13213b" stroke="#1e3a5f"/>
+  <circle cx="84" cy="797" r="7" fill="#22c55e"/>
+  <text x="102" y="803" fill="#e2e8f0" font-size="15" font-weight="700">Tally connected</text>
+  <text x="84" y="824" fill="#64748b" font-size="13">12 companies synced</text>
+
+  <!-- header -->
+  <text x="350" y="92" fill="#f8fafc" font-size="36" font-weight="800">Firm overview</text>
+  <text x="350" y="124" fill="#64748b" font-size="18">Clients, compliance and reconciliation in one place</text>
+  <rect x="1330" y="64" width="230" height="52" rx="12" fill="url(#acc)"/>
+  <text x="1445" y="97" text-anchor="middle" fill="#0b1220" font-size="18" font-weight="800">+ Upload invoices</text>
+
+  <!-- stat cards -->
+  <g>
+    <rect x="350" y="160" width="285" height="130" rx="16" fill="#0f172a" stroke="#1e293b"/>
+    <text x="374" y="198" fill="#94a3b8" font-size="16">Active clients</text>
+    <text x="374" y="256" fill="#f8fafc" font-size="46" font-weight="800">148</text>
+    <rect x="655" y="160" width="285" height="130" rx="16" fill="#0f172a" stroke="#1e293b"/>
+    <text x="679" y="198" fill="#94a3b8" font-size="16">Invoices processed (OCR)</text>
+    <text x="679" y="256" fill="#2dd4bf" font-size="46" font-weight="800">3,420</text>
+    <rect x="960" y="160" width="285" height="130" rx="16" fill="#0f172a" stroke="#1e293b"/>
+    <text x="984" y="198" fill="#94a3b8" font-size="16">GST mismatches found</text>
+    <text x="984" y="256" fill="#fbbf24" font-size="46" font-weight="800">37</text>
+    <rect x="1265" y="160" width="295" height="130" rx="16" fill="#0f172a" stroke="#1e293b"/>
+    <text x="1289" y="198" fill="#94a3b8" font-size="16">Filings due this week</text>
+    <text x="1289" y="256" fill="#f87171" font-size="46" font-weight="800">9</text>
+  </g>
+
+  <!-- GST reconciliation -->
+  <rect x="350" y="320" width="780" height="540" rx="18" fill="#0f172a" stroke="#1e293b"/>
+  <text x="378" y="364" fill="#f1f5f9" font-size="22" font-weight="800">GSTR-2A / 2B reconciliation</text>
+  <g font-size="14" fill="#64748b" font-weight="700">
+    <text x="378" y="406">VENDOR</text>
+    <text x="640" y="406">INVOICE</text>
+    <text x="790" y="406">BOOKS</text>
+    <text x="900" y="406">GSTR-2B</text>
+    <text x="1030" y="406">STATUS</text>
+  </g>
+  <line x1="378" y1="420" x2="1102" y2="420" stroke="#1e293b"/>
+  <g font-size="17" fill="#e2e8f0">
+    <text x="378" y="460">Shree Traders</text><text x="640" y="460">INV-2041</text><text x="790" y="460">₹84,200</text><text x="900" y="460">₹84,200</text>
+    <rect x="1030" y="440" width="76" height="30" rx="15" fill="#052e1a"/><text x="1068" y="461" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="700">Matched</text>
+
+    <text x="378" y="520">Apex Logistics</text><text x="640" y="520">INV-1187</text><text x="790" y="520">₹1,12,000</text><text x="900" y="520">₹1,08,500</text>
+    <rect x="1030" y="500" width="76" height="30" rx="15" fill="#3a2a05"/><text x="1068" y="521" text-anchor="middle" fill="#fbbf24" font-size="14" font-weight="700">Mismatch</text>
+
+    <text x="378" y="580">Navkar Steel</text><text x="640" y="580">INV-9930</text><text x="790" y="580">₹2,45,600</text><text x="900" y="580">₹2,45,600</text>
+    <rect x="1030" y="560" width="76" height="30" rx="15" fill="#052e1a"/><text x="1068" y="581" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="700">Matched</text>
+
+    <text x="378" y="640">Orbit Packaging</text><text x="640" y="640">INV-5512</text><text x="790" y="640">₹36,900</text><text x="900" y="640">—</text>
+    <rect x="1030" y="620" width="76" height="30" rx="15" fill="#3b0d0d"/><text x="1068" y="641" text-anchor="middle" fill="#f87171" font-size="14" font-weight="700">Missing</text>
+
+    <text x="378" y="700">Kalyani Textiles</text><text x="640" y="700">INV-3308</text><text x="790" y="700">₹58,750</text><text x="900" y="700">₹58,750</text>
+    <rect x="1030" y="680" width="76" height="30" rx="15" fill="#052e1a"/><text x="1068" y="701" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="700">Matched</text>
+  </g>
+  <rect x="378" y="750" width="724" height="84" rx="14" fill="#13213b" stroke="#1e3a5f"/>
+  <text x="402" y="786" fill="#2dd4bf" font-size="14" font-weight="800" letter-spacing="2">AI INSIGHT</text>
+  <text x="402" y="816" fill="#e2e8f0" font-size="17">2 vendors have ITC at risk. Review before the GSTR-3B filing deadline.</text>
+
+  <!-- OCR panel -->
+  <rect x="1160" y="320" width="400" height="300" rx="18" fill="#0f172a" stroke="#1e293b"/>
+  <text x="1188" y="364" fill="#f1f5f9" font-size="22" font-weight="800">Invoice OCR</text>
+  <rect x="1188" y="386" width="150" height="200" rx="10" fill="#f8fafc"/>
+  <g fill="#cbd5e1"><rect x="1204" y="404" width="80" height="8" rx="4"/><rect x="1204" y="426" width="118" height="6" rx="3"/><rect x="1204" y="444" width="118" height="6" rx="3"/><rect x="1204" y="462" width="96" height="6" rx="3"/><rect x="1204" y="500" width="118" height="6" rx="3"/><rect x="1204" y="518" width="118" height="6" rx="3"/></g>
+  <rect x="1204" y="545" width="118" height="22" rx="4" fill="url(#acc)" opacity="0.85"/>
+  <g font-size="15">
+    <text x="1362" y="412" fill="#64748b">Vendor</text><text x="1362" y="436" fill="#f1f5f9" font-weight="700">Shree Traders</text>
+    <text x="1362" y="474" fill="#64748b">GSTIN</text><text x="1362" y="498" fill="#f1f5f9" font-weight="700">27AABCS1234F1Z5</text>
+    <text x="1362" y="536" fill="#64748b">Total</text><text x="1362" y="560" fill="#2dd4bf" font-weight="800">₹84,200</text>
+  </g>
+
+  <!-- compliance -->
+  <rect x="1160" y="650" width="400" height="210" rx="18" fill="#0f172a" stroke="#1e293b"/>
+  <text x="1188" y="694" fill="#f1f5f9" font-size="22" font-weight="800">Compliance tracker</text>
+  <g font-size="16" fill="#cbd5e1">
+    <circle cx="1196" cy="730" r="6" fill="#22c55e"/><text x="1214" y="736">GSTR-1 filed</text><text x="1540" y="736" text-anchor="end" fill="#64748b">11 Nov</text>
+    <circle cx="1196" cy="772" r="6" fill="#fbbf24"/><text x="1214" y="778">GSTR-3B pending</text><text x="1540" y="778" text-anchor="end" fill="#64748b">20 Nov</text>
+    <circle cx="1196" cy="814" r="6" fill="#f87171"/><text x="1214" y="820">TDS return due</text><text x="1540" y="820" text-anchor="end" fill="#64748b">30 Nov</text>
+  </g>
+</svg>
